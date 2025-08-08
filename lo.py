@@ -23,9 +23,9 @@ logging.basicConfig(
 # Create bot client
 bot = Client(
     "CW",
-    bot_token="8190086252:AAHkseLMEdl_Hxaoz38C9vQaGujXqIpHVoY",
-    api_id=28712726,
-    api_hash="06acfd441f9c3402ccdb1945e8e2a93b"
+    bot_token="8342144918:AAFb7WCTBeLDmbouI3-fjK71SAvV8dqpzvs",
+    api_id=27765349,
+    api_hash="9df1f705c8047ac0d723b29069a1332b"
 )
 
 @bot.on_message(filters.command(["down"]) & ~filters.edited)
